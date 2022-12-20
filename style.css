@@ -1,0 +1,60 @@
+/* General  */
+:root {
+  --max-width: 1280px;
+  --min-width: 320px;
+  --accent-color: #00c2ff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* CONTAINER */
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    min-height: var(--min-width);
+    background-image: url("./utils/background_00.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header, .content, .footer {
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/* HEADER */
+.header{
+    max-width: var(--max-width);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 42px;
+    font-weight: bold;
+}
+.logo img{
+    margin-right: .5rem;
+}
