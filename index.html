@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/ad4fae043d.js" crossorigin="anonymous"></script>
+    <script src="./main.js" defer></script>
     <title>AutoMotive</title>
 </head>
 
@@ -20,7 +22,7 @@
         <!-- HEADER -->
         <header class="header">
             <a href="#" class="logo">
-                <img src="./utils/logo_cars_00.svg" alt="AutoMotiveLogo">Automotive
+                <img class="logo-img" src="./utils/logo_cars_00.svg" alt="AutoMotiveLogo">Automotive
             </a>
             <nav class="menu">
                 <ul class="menu-list">
@@ -45,27 +47,30 @@
 
         <!-- CONTENT -->
         <article class="content">
+            <a class="slideButton prevSlide"><i class="fa-solid fa-chevron-left"></i></i></a>
+            <a class="slideButton nextSlide"><i class="fa-solid fa-chevron-right"></i></i></a>
             <h1 class="content-claim">Your Car Repair</h1>
-            <h2 class="content-subclaim">Visit ud for your service</h2>
+            <h2 class="content-subclaim">Visit us for your service</h2>
             <a class="book-appointment" href="#">Book Appointment</a>
         </article>
 
         <!-- FOOTER -->
-        <footer class="footer">
-            <section class="footer-widget">
-                <h3 class="footer-widget-title">Our Location</h3>
-                <p class="footer-widget-text">15 Street Suburb Country 6000</p>
-            </section>
-            <section class="footer-widget">
-                <h3 class="footer-widget-title">Phone</h3>
-                <p class="footer-widget-text">+61 040 400 4000</p>
-            </section>
-            <section class="footer-widget">
-                <h3 class="footer-widget-title">Email</h3>
-                <p class="footer-widget-text">automotive@carsales.com.au</p>
-            </section>
-        </footer>
-
+        <div class="footer-wrapper">
+            <footer class="footer">
+                <section class="footer-widget">
+                    <h3 class="footer-widget-title">Our Location</h3>
+                    <p class="footer-widget-text">15 Street Suburb Country 6000</p>
+                </section>
+                <section class="footer-widget">
+                    <h3 class="footer-widget-title">Phone</h3>
+                    <p class="footer-widget-text">+61 040 400 4000</p>
+                </section>
+                <section class="footer-widget">
+                    <h3 class="footer-widget-title">Email</h3>
+                    <p class="footer-widget-text">automotive@carsales.com.au</p>
+                </section>
+            </footer>
+        </div>
     </main>
 
 </body>
